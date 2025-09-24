@@ -1,0 +1,46 @@
+/* Game.css */
+.game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical centering */
+    align-items: center;    /* horizontal centering */
+    gap: 1.5rem;
+    width: 100%;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #ffd700;
+    margin: 0;
+}
+
+.player-hand {
+    font-size: 1.2rem;
+    background-color: rgba(255,255,255,0.1);
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    min-width: 300px;
+    text-align: center;
+}
+
+button {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff4500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #ff6347;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
